@@ -12,25 +12,22 @@ A quick google will lead for some cases  -- [stackoverflow](http://stackoverflow
 
 The following is currently the one who fits my needs
 
-```
 
-<VirtualHost *:80>
-        ServerName my_awesome_site.com.br
+    <VirtualHost *:80>
+            ServerName my_awesome_site.com.br
 
-        WSGIScriptAlias / /path/to/app/application.wsgi
-        <Directory /path/to/app/>
-            Order allow,deny
-            Allow from all
-        </Directory>
-        Alias /static /path/to/app/static
-        <Directory /path/to/app/static/>
-            Order allow,deny
-            Allow from all
-        </Directory>
+            WSGIScriptAlias / /path/to/app/application.wsgi
+            <Directory /path/to/app/>
+                Order allow,deny
+                Allow from all
+            </Directory>
+            Alias /static /path/to/app/static
+            <Directory /path/to/app/static/>
+                Order allow,deny
+                Allow from all
+            </Directory>
 
-        ErrorLog ${APACHE_LOG_DIR}/error.log
-        LogLevel warn
-        CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
-
-```
+            ErrorLog ${APACHE_LOG_DIR}/error.log
+            LogLevel warn
+            CustomLog ${APACHE_LOG_DIR}/access.log combined
+    </VirtualHost>
