@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://arthurbarros.github.io
+title: Arthur Barros
+tagline: Obvious conclusions
+description: Geeking around
+paginate: 5
