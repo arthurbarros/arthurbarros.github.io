@@ -3,8 +3,6 @@ published: true
 title: Simple VirtualHost configuration for Python Flask
 layout: post
 ---
-I've been a PHP developer for a long time, but a year from now I started digging into Python -- specifically in flask micro-framework.
-
 During this whole year, I've been involved in several web app using Flask, and several vhost configuration type. 
 
 The most problematic one was the WSGIDaemon, wich let's Apache to fireup N daemon of you application, this approach could lead for a database issues (which did).
