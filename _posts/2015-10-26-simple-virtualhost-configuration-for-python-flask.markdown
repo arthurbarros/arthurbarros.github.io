@@ -5,7 +5,7 @@ layout: post
 ---
 During this whole year, I've been involved in several web app using Flask, and several vhost configuration type. 
 
-The most problematic one was the WSGIDaemon, wich let's Apache to fireup N daemon of you application, this approach could lead for a database issues (which did).
+The most problematic one was the WSGIDaemon, wich lets Apache to fireup N daemon of you application, this approach could lead for a database issues (which did).
 A quick google will show for some cases  -- [stackoverflow](http://stackoverflow.com/questions/9318347/why-are-some-mysql-connections-selecting-old-data-the-mysql-database-after-a-del)
 
 The following is currently the one who fits my needs
