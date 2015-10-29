@@ -44,7 +44,7 @@ At the 4th line, we are creating a new instance of the Blueprint class, the firs
  
  `template_folder` it takes the relative path to the `routes.py` file to look for our templates we are going to use with the controller we assined to. Everytime our `controller.index` method tries to resolve a template to render with `render_temaplte`method it will look this to the `teamplte_folder` path under our module, and if it don't find any matching file it will look at the `app_name/webapp/templates` for a matching. 
  
- _Please, be aware with you having multiple template files with the same name under different modules it will resolve the first one, it finds no matter what module it is, this is a known issue by the time i write this post_
+ _Be aware with you have multiple template files with the same name under different modules it WILL resolve the first one it finds, no matter what module it is, this is a known issue by the time i write this post_
 
 At the 5th line, we are assinging our routes with the proper http method it handle to the method reponsible to solve it.
 
