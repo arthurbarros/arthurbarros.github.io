@@ -14,12 +14,13 @@ The concept is really easy to get used to, but it can be trick to implement with
 Start by refactoring you __init__.py at the root of your app, and start using the register_blueprint which is built in the Blueprint object
 
 `app_name/webapp/__init__.py`
-```python
-from flask import Flask
-import modules.home.routes
-app = Flask(__name__)
-app.register_blueprint(modules.home.routes.blueprint)
-```
+
+
+     from flask import Flask
+     import modules.home.routes
+     app = Flask(__name__)
+     app.register_blueprint(modules.home.routes.blueprint)
+
 
 Everytime we create a new module we have to import it and register the Blueprint object to the app instance. So our application become aware of the new module.
 
@@ -29,12 +30,12 @@ Each of our modules should have a mandatory routes.py file, responsible to map e
 To solve it we are going to import our module controller relative to our routes.py and than initiate a new Blueprint instance.
 
 `app_name/webapp/modules/home/routes.py`
-```python
-from flask import Blueprint
-import controller
-blueprint = Blueprint("home", __name__, url_prefix='/', template_folder='templates')
-blueprint.route("/", methods=["GET"])(controller.index)
-```
+     
+     from flask import Blueprint
+     import controller
+     blueprint = Blueprint("home", __name__, url_prefix='/', template_folder='templates')
+     blueprint.route("/", methods=["GET"])(controller.index)
+     
 
 At the 4th line, we are creating a new instance of the Blueprint class, the first argument, is the module name which we are going to use when referencing our modules using the [url_for()](http://flask.pocoo.org/docs/0.10/api/#flask.url_for) method.
 
