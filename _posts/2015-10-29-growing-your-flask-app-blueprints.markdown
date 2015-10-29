@@ -7,11 +7,11 @@ layout: post
 _If you didn't read the previous post about this topic, please go ahead to [Growing your Flask App - Folder Structure](http://arthurbarros.github.io/2015/10/26/growing-your-flask-app-folder-structure.html)_
 
 The simplest way I found so far to organize my Flask apps is to using the [HMVC](https://en.wikipedia.org/wiki/Hierarchical_model%E2%80%93view%E2%80%93controller) pattern.
-The concept is really easy to get used to, but it can be trick to implement with your Flask application because of the poor *oficial* documentation.
+The concept is really easy to get used to, but it can be trick to implement with your Flask application because of the poor *official* documentation.
 
 ## Mapping the modules folder
 
-Start by refactoring you __init__.py at the root of your app, and start using the register_blueprint which is built in the Blueprint object
+Start by refactoring you `__init__.py` at the root of your app, and start using the register_blueprint which is built in the Blueprint object
 
 `app_name/webapp/__init__.py`
 
