@@ -40,7 +40,7 @@ To solve it we are going to import our module controller relative to our routes.
 At the 4th line, we are creating a new instance of the Blueprint class, the first argument, is the module name which we are going to use when referencing our modules using the [url_for()](http://flask.pocoo.org/docs/0.10/api/#flask.url_for) method.
 
 `url_prefix` is used to proper name your modules to the url, for example `url_prefix='account'`
- would give us the following url path to our module http://<url>/account/<controller
+ would give us the following url path to our module http://url/account/<controller
  
  `template_folder` it takes the relative path to the `routes.py` file to look for our templates we are going to use with the controller we assined to. Everytime our `controller.index` method tries to resolve a template to render with `render_temaplte`method it will look this to the `teamplte_folder` path under our module, and if it don't find any matching file it will look at the `app_name/webapp/templates` for a matching. 
  
@@ -48,7 +48,7 @@ At the 4th line, we are creating a new instance of the Blueprint class, the firs
 
 At the 5th line, we are assinging our routes with the proper http method it handle to the method reponsible to solve it.
 
-`blueprint.route` the first argument is the name will be assigned to the controller method, for example `blueprint.route("magic_the_gathering, methods=["GET"])(controller.index)"` will result in the following uri http://<url>/account/magic_the_gathering
+`blueprint.route` the first argument is the name will be assigned to the controller method, for example `blueprint.route("magic_the_gathering, methods=["GET"])(controller.index)"` will result in the following uri http://url/account/magic_the_gathering
 
 ## Conclusion
 
