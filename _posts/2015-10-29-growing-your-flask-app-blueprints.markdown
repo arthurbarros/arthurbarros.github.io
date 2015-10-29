@@ -11,7 +11,7 @@ The concept is really easy to get used to, but it can be trick to implement with
 
 ## Mapping the modules folder
 
-Start by refactoring you `__init__.py` at the root of your app, and start using the register_blueprint which is built in the Blueprint object
+Refactor your `__init__.py` at the root of your app, and use the register_blueprint which is builtin to the `flask.blueprint` object.
 
 `app_name/webapp/__init__.py`
 
