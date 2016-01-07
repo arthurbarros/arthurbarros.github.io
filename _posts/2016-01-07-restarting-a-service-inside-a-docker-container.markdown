@@ -1,9 +1,3 @@
----
-published: true
-title: Gracefuel service restar inside a container - Docker
-layout: post
----
-
 I have this project running on a container with apache_wsgi + flask, and I hadn't set up the WSGIScriptReloading yet, and I was wondering if was possible to send a SIGKILL to a service inside a container without manually attach to the container and run it by myself.
 
 And thanks to the amazing work of the docker community, it's actually possible to send a SIGKILL using the `docker kill` command, here is how:
