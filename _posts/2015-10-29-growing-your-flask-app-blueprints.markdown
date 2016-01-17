@@ -48,7 +48,7 @@ At the 4th line, we are creating a new instance of the Blueprint class, the firs
 
 At the 5th line, we are assinging our routes with the proper http method it handle to the method reponsible to solve it.
 
-`blueprint.route` the first argument is the name will be assigned to the controller method, for example `blueprint.route("magic_the_gathering, methods=["GET"])(controller.index)"` will result in the following uri http://url/account/magic_the_gathering
+`blueprint.route` the first argument is the name will be assigned to the controller method, for example `blueprint.route("magic_the_gathering", methods=["GET"])(controller.index)` will result in the following uri http://url/account/magic_the_gathering
 
 ## Conclusion
 
