@@ -20,3 +20,9 @@ Here is some working SIGKILL for apache if you are wondering.
     WINCH - Graceful Stop Signal
  
 You can read more about the `--signal` flag here [https://docs.docker.com/engine/reference/commandline/kill/](https://docs.docker.com/engine/reference/commandline/kill/)
+
+
+# Post Update about the PID 1
+
+Is important to mention that your process inside the container MUST be running with PID 1, in other words, It should be the process you expose with ENTRYPOINT/CMD, if you are running your main process with a bash bias. This will not work
+
