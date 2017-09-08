@@ -409,7 +409,7 @@ val_features, val_targets = features[-60*24:], targets[-60*24:]
 
 We will build our network. We've well see the structure, backwards pass and forward pass. We will also set the hyperparameters, such as: learning rate, number of hidden nodes, and the number of training passes.
 
-<img src="https://i.imgur.com/DHlMl82.png" width=300px>
+![png](https://i.imgur.com/DHlMl82.png)
 
 The network has two layers, a hidden layer and an output layer. The hidden layer will use the sigmoid function for activations. The output layer has only one node and is used for the regression, the output of the node is the same as the input of the node. That is, the activation function is $f(x)=x$. A function that takes the input signal and generates an output signal, but takes into account the threshold, is called an activation function. We work through each layer of our network calculating the outputs for each neuron. All of the outputs from one layer become inputs to the neurons on the next layer. This process is called *forward propagation*.
 
