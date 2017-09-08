@@ -4,8 +4,6 @@ title: Predicting bike sharing rides with Numpy
 layout: post
 ---
 
-# Predicting bike sharing rides with numpy
-
 In this notebook, we will build a simple artificial neural network and use it to predict daily bike rental ridership, the goal is to prepare the data so we can feed into the neural network and plot a the pr4edictions using matplotlib
 
 This post is heavily releated to the first project we take on Udacity Deep Learning Nanodegree Foundation, if you find any of this content awesome, please give a look on their Nanodegree at https://br.udacity.com/course/deep-learning-nanodegree-foundation--nd101/
