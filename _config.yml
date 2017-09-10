@@ -1,19 +1,19 @@
 # Site settings
-title: Clean Blog
+title: Arthur Neural Network
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+email: arthbarros [at] gmail [dot] com
+copyright_name: Public Domain
+description: "Artificial Neural Networks, Docker and Software Engineering"
+baseurl: "/"
+url: "http://arthurbarros.github.io"
+twitter_username: arthbarros
+github_username:  arthurbarros
+facebook_username:  barros.arthur
+email_username:  arthbarros [at] gmail [dot] com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
+google_tracking_id: UA-69349112-1
 
 # Build settings
 markdown: kramdown
