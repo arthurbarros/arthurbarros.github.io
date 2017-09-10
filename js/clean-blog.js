@@ -1044,8 +1044,10 @@ jQuery(document).ready(function($) {
                     //if scrolling up...
                     if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
                         $('.navbar-custom').addClass('is-visible');
+                        $('.navbar-brand').fadeIn();
                     } else {
                         $('.navbar-custom').removeClass('is-visible is-fixed');
+                        $('.navbar-brand').fadeOut();
                     }
                 } else {
                     //if scrolling down...
