@@ -588,5 +588,4 @@ _ = ax.set_xticklabels(dates[12::24], rotation=45)
 
 We can see that our model would benefit for more hyper-parameter tunning, that way we would increase the convergence in the first epochs.
 
-Do you have any questions?
-Ask your questions in the comments below and I will do my best to answer.
+Do you have any questions? Ask your questions in the comments and I will do my best to answer.
