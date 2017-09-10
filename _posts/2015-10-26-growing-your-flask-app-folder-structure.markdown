@@ -2,7 +2,7 @@
 published: true
 title: Growing your Flask App - Folder Structure
 layout: post
-header-img: "img/post-bg-01.jpg"
+header-img: "img/2015-10-26-growing-your-flask-app-folder-structure.jpg"
 author: Arthur Barros
 ---
 
