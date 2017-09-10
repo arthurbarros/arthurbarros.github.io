@@ -585,6 +585,7 @@ _ = ax.set_xticklabels(dates[12::24], rotation=45)
 
 ## Conclusion
 
-We can see that our network would have a better result if our dataset would have a more seasonal pattern, but if we improve the hyperparameters and collect more data points for our dataset, we still can predict the direction in wish our bike sharing rides are point to.
+We can see that our model would benefit for more hyper-parameter tunning, that way we would increase the convergence in the first epochs.
 
-Hope you enjoyed this post, thanks for reading it.
+Do you have any questions?
+Ask your questions in the comments below and I will do my best to answer.
