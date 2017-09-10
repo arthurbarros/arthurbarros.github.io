@@ -1,8 +1,7 @@
 ---
-layout: post
+published: true
 title: Growing your Flask App - Folder Structure
-subtitle:"Or, how do I plan to structure my code before writing it"
-date: 2015-10-16
+layout: post
 header-img: "img/post-bg-01.jpg"
 ---
 
