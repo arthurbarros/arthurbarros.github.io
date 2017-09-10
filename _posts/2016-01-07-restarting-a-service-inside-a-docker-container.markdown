@@ -2,6 +2,7 @@
 published: true
 title: Restarting a service inside a docker container
 layout: post
+author: Arthur Barros
 ---
 
 I have this project running on a container with apache_wsgi + flask, and I hadn't set up the WSGIScriptReloading yet, and I was wondering if was possible to send a SIGKILL to a service inside a container without manually attach to the container and run it by myself.

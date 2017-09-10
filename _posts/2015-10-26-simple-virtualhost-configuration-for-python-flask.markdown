@@ -2,6 +2,7 @@
 published: true
 title: Simple VirtualHost configuration for Python Flask
 layout: post
+author: Arthur Barros
 ---
 During this whole year, I've been involved in several web app using Flask, and several vhost configuration type. 
 

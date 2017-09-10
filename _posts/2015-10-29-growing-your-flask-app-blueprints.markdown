@@ -2,6 +2,7 @@
 published: true
 title: Growing your Flask App - Blueprints
 layout: post
+author: Arthur Barros
 ---
 
 _If you didn't read the previous post about this topic, please go ahead to [Growing your Flask App - Folder Structure](http://arthurbarros.github.io/2015/10/26/growing-your-flask-app-folder-structure.html)_
