@@ -2,7 +2,6 @@
 published: true
 title: Growing your Flask App - Folder Structure
 layout: post
-header-img: "img/post-bg-01.jpg"
 ---
 
 Flask is pretty straightforward while reading and learning the basics of the framework. But as soon as your needs start to grow you face a challenge of how to proper grow and organize your Models, Views and Controllers.
