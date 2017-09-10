@@ -3,7 +3,7 @@ published: true
 title: Simple VirtualHost configuration for Python Flask
 layout: post
 author: Arthur Barros
-header-img: "2015-10-26-simple-virtualhost-configuration-for-python-flask.jpg"
+header-img: "img/2015-10-26-simple-virtualhost-configuration-for-python-flask.jpg"
 ---
 During this whole year, I've been involved in several web app using Flask, and several vhost configuration type. 
 
