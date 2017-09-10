@@ -2,7 +2,7 @@
 published: true
 title: Predicting bike sharing rides with Numpy
 layout: post
-header-img: "2017-09-08-predict-bike-sharing-rides-numpy.jpg"
+header-img: "img/2017-09-08-predict-bike-sharing-rides-numpy.jpg"
 ---
 
 In this notebook, we will build a simple artificial neural network and use it to predict daily bike rental ridership, the goal is to prepare the data so we can feed into the neural network and plot a the pr4edictions using matplotlib
