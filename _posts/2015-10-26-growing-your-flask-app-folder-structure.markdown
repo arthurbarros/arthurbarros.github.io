@@ -1,6 +1,6 @@
 ---
 published: true
-title: Growing your Flask App - Folder Structure
+title: Growing your Flask App: Folder Structure
 layout: post
 ---
 
