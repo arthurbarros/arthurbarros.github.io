@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Growing your Flask App - Folder Structure"
+title: Growing your Flask App - Folder Structure
 subtitle:"Or, how do I plan to structure my code before writing it"
 date: 2015-10-16
 header-img: "img/post-bg-01.jpg"
 ---
-
-
 
 Flask is pretty straightforward while reading and learning the basics of the framework. But as soon as your needs start to grow you face a challenge of how to proper grow and organize your Models, Views and Controllers.
 
