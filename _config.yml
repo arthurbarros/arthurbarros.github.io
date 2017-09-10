@@ -8,8 +8,6 @@ baseurl: "/"
 url: "http://arthurbarros.github.io"
 twitter_username: arthbarros
 github_username:  arthurbarros
-facebook_username:  barros.arthur
-email_username:  arthbarros [at] gmail [dot] com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
@@ -18,7 +16,7 @@ google_tracking_id: UA-69349112-1
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
+# permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
